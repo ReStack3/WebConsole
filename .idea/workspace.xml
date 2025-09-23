@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a9d9a0a-28d7-452b-ba86-04ead9a61884" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/handle/recv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/pipelines/redisop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX/Crypto/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX_service/Crypto/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX/Crypto/coindesk.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX_service/Crypto/coindesk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX/Crypto/cointelegraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX_service/Crypto/cointelegraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX/Crypto/decryptco.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX_service/Crypto/decryptco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX/Crypto/theblockbeats.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX_service/Crypto/theblockbeats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX/base_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX_service/base_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX/celery_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX_service/celery_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX_service/item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/CrawlerX_service/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/Test/recvmessage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/Test/recvmessage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/Test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/Test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/Test/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/Test/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/Test/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/Test/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/agents/comment_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/agents/comment_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/agents/news_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/agents/news_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/agents/tools/Analyze_articles.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/agents/tools/Analyze_articles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/handle/recv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/initialize/initialize.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/initialize/initialize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/pipelines/storeredis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/prompts/news_prompt.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/prompts/news_prompt.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/prompts/prompt_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/prompts/prompt_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/QuantGPTAgent/prompts/response_schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/prompts/response_schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mediaRiskManage/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediaRiskManage/sentimentRag_service/db.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="31qsHZVwPsKxWFFWDs5PWUTsro7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/SourceInsight/SoftProject/CryptoQuantX/fullStack/cryptoweb",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\SourceInsight\\SoftProject\\CryptoQuantX\\fullStack\\cryptoweb\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7a9d9a0a-28d7-452b-ba86-04ead9a61884" name="更改" comment="" />
+      <created>1756262850345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756262850345</updated>
+      <workItem from="1756262851590" duration="41000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
