@@ -1,7 +1,64 @@
 "use client"; // 必须放在最顶部
 
-import React, { useState } from "react";
 import { Table, Dropdown, Checkbox, Button, Input, Space } from "antd";
+import React, { useState,useRef, useEffect } from "react";
+
+
+import * as echarts from "echarts";
+
+import * as echarts from "echarts";
+
+interface KLineChartProps {
+  data: [string, number, number, number, number][];
+}
+
+const KLineChart: React.FC<KLineChartProps> = ({ data }) => {
+  const chartRef = useRef<HTMLDivElement>(null);
+  const chartInstance = useRef<echarts.ECharts>();
+
+  useEffect(() => {
+    if (chartRef.current) {
+      if (!chartInstance.current) {
+        chartInstance.current = echarts.init(chartRef.current);
+      }
+
+      const option: echarts.EChartsOption = {
+        tooltip: {
+          trigger: "axis",
+        },
+        xAxis: {
+          type: "time", // ✅ 时间轴
+          axisLabel: {
+            formatter: (value: number) =>
+              new Date(value).toLocaleTimeString("zh-CN", { hour12: false }),
+          },
+        },
+        yAxis: {
+          scale: true,
+        },
+        series: [
+          {
+            type: "candlestick",
+            data: data.map(([time, open, close, low, high]) => [
+              time, open, close, low, high,
+            ]),
+          },
+        ],
+      };
+
+      chartInstance.current.setOption(option);
+    }
+
+    return () => {
+      chartInstance.current?.dispose();
+      chartInstance.current = undefined;
+    };
+  }, [data]);
+
+  return <div ref={chartRef} style={{ width: "100%", height: 400 }} />;
+};
+
+
 
 // -------------------- FilterPanel 组件 --------------------
 interface FilterPanelProps {
@@ -97,6 +154,22 @@ const Home = () => {
     setTableData(result.data);
   };
 
+    const dates = [
+    "2025-09-01","2025-09-02","2025-09-03","2025-09-04",
+    "2025-09-05","2025-09-06","2025-09-07","2025-09-08"
+  ];
+
+    const data = [
+      ["2025-09-23 12:00:01", 2320.26, 2320.26, 2287.3, 2362.94],
+      ["2025-09-23 12:00:02", 2300, 2291.3, 2288.26, 2308.38],
+      ["2025-09-23 12:00:03", 2295.35, 2346.5, 2295.35, 2346.92],
+      ["2025-09-23 12:00:04", 2347.22, 2358.98, 2337.35, 2363.8],
+      ["2025-09-23 12:00:05", 2360.75, 2382.48, 2347.89, 2383.76],
+    ];
+
+
+
+
   return (
     <div className="flex">
       <div className="flex-1 ml-16 p-8">
@@ -111,6 +184,8 @@ const Home = () => {
 
         {/* 表格组件 */}
         <TableDisplay columns={columns} data={tableData} />
+
+        <KLineChart data={data} />
       </div>
     </div>
   );
