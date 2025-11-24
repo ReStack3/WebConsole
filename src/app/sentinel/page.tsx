@@ -4,9 +4,9 @@ import WhalesflowClient from './components/WhalesflowClient';
 import ContentPlaceHolder from './components/ContentPlaceHolder'
 import CardsWrapper from './components/CardsWrapper';
 import Search from './components/Search';
+
+
 export default function Page() {
-
-
   return (
 
     <main className="main-content">

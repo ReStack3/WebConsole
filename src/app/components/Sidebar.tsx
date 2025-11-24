@@ -10,12 +10,10 @@ interface SidebarProps {
 
 const menuItems = [
   {name:"首页",path:"/",icon:<HomeIcon className="w-6 h-6 text-white" />},
-  { name: '信息收集',path: '/crawler',icon: <CloudArrowDownIcon className="w-6 h-6" />},
-  { name: '舆情风控', path: '/mediaGuard',icon: <ChartBarIcon className="w-6 h-6" />  },
-  { name: "AI助手分析", path: "/ai-assistant", icon: <BoltIcon className="w-6 h-6" /> },
-  { name: '链哨', path: '/chainSentinel' ,icon: <EyeIcon className="w-6 h-6" />},
-  { name: '量化交易', path: '/strategy', icon: <CodeBracketIcon className="w-6 h-6" /> },
-  { name: '用户中心', path: '/settings', icon: <Cog6ToothIcon className="w-6 h-6" /> },
+  { name: '爬虫', path: '/crawler', icon: <CloudArrowDownIcon className="w-6 h-6" /> },
+  { name: '天眼', path: '/sight', icon: <EyeIcon className="w-6 h-6" /> },
+  { name: '链哨', path: '/sentinel', icon: <BoltIcon className="w-6 h-6" /> },
+  { name: '量化交易', path: '/quent', icon: <ChartBarIcon className="w-6 h-6" /> },
   { name: '其他', path: '/others', icon: <Squares2X2Icon className="w-6 h-6" /> },
 ];
 

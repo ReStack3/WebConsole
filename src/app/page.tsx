@@ -6,7 +6,6 @@ import React, { useState,useRef, useEffect } from "react";
 
 import * as echarts from "echarts";
 
-import * as echarts from "echarts";
 
 interface KLineChartProps {
   data: [string, number, number, number, number][];

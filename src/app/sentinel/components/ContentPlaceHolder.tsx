@@ -72,6 +72,7 @@ export default function ContentPlaceHolder() {
           </div>
         </div>
 
+
         <div className="flex-1 space-y-5 border-t lg:border-t-0 lg:border-l lg:pl-6 lg:ml-6 pt-5 lg:pt-0">
           {/* Transactions & Gas */}
           <div className="flex justify-between items-center">

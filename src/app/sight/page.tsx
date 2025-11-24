@@ -8,10 +8,8 @@ export default function Dashboard() {
   return (
     <div className="flex flex-col min-h-screen gap-6 p-6">
       
-
-
       <MetricPanel />
- 
+
 
     <div className="h-[800px] px-6 flex space-x-6">
         {/* 左侧折线图，占宽度 3/4 */}
@@ -27,7 +25,7 @@ export default function Dashboard() {
 
 
   
-       <div className="h-[800px] px-6">
+      <div className="h-[800px] px-6">
           <AlertList />
       </div>
 
@@ -35,3 +33,5 @@ export default function Dashboard() {
     </div>
   );
 }
+
+
