@@ -11,9 +11,9 @@ interface SidebarProps {
 const menuItems = [
   {name:"首页",path:"/",icon:<HomeIcon className="w-6 h-6 text-white" />},
   { name: '爬虫', path: '/crawler', icon: <CloudArrowDownIcon className="w-6 h-6" /> },
-  { name: '天眼', path: '/sight', icon: <EyeIcon className="w-6 h-6" /> },
+  { name: '天眼', path: '/observer', icon: <EyeIcon className="w-6 h-6" /> },
   { name: '链哨', path: '/sentinel', icon: <BoltIcon className="w-6 h-6" /> },
-  { name: '量化交易', path: '/quent', icon: <ChartBarIcon className="w-6 h-6" /> },
+  { name: '量化', path: '/quent', icon: <ChartBarIcon className="w-6 h-6" /> },
   { name: '其他', path: '/others', icon: <Squares2X2Icon className="w-6 h-6" /> },
 ];
 

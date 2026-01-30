@@ -19,5 +19,9 @@ function Quote(){
 }
 
 export default function CelebrityQuotes() {
-
+    return(
+        <div>
+                
+        </div>
+    )
 }

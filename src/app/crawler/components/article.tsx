@@ -1,14 +1,17 @@
+import styles from './article.module.css';
+
 
 function Filter(){
     return(
         <div>
+
         </div>
     )
 }
 
 function Search(){
     return(
-        <div>
+        <div className={styles.crawler_search}>
             <input/>  
             <button></button>
             <Filter/>
@@ -26,8 +29,11 @@ function ArticleList(){
 
 
 export default function Article() {
-    <div>
-        <Search/>
-        <ArticleList/>
-    </div>
+    return(
+        <div className={styles.article}>
+            <p>这里页面信息</p>
+            <Search/>
+            <ArticleList/>
+        </div>
+    )
 }

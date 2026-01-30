@@ -1,4 +1,4 @@
-
+import styles from "./dashboard.module.css"
 
 function TopicDiscussionStatistics(){
     return(
@@ -27,7 +27,8 @@ function ArticleStatistics(){
 
 export default function Dashboard() {
     return(
-        <div>
+        <div className={styles.dashboard}>
+            <p>hello</p>
             <ArticleStatistics/>
 
             <TopicDiscussionStatistics/>

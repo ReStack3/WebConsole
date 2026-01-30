@@ -1,0 +1,9 @@
+.dashboard{
+    border: 1px solid #e26d6d;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border-top:0ch;
+
+    width: 100%;
+    max-width: 1200px; /* 最大宽度限制 */
+    margin: 0 auto; /* 水平居中 */
+}

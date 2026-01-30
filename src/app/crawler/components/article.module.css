@@ -1,0 +1,8 @@
+.crawler_search{
+    padding: 20px;
+}
+
+.article{
+    border: 1px solid #141313;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
